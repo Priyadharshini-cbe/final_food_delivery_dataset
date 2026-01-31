@@ -19,26 +19,27 @@ In this project, we process data from three disparate real-world systems:
 ## 📂 Repository Structure
 
 ```text
-├── data/
-│   ├── orders.csv          # Transactional raw data
-│   ├── users.json           # User demographic raw data
-│   └── restaurants.sql      # Restaurant master raw data
-├── scripts/
-│   ├── merge_data.py        # Main ETL script to produce the final dataset
-│   └── analyze_data.py      # Automated analysis and query engine
-├── final_food_delivery_dataset.csv # The integrated "Source of Truth"
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
+GenAI_Hackathon/
+│
+├── final_check.py
+├── final_food_delivery_dataset.csv
+├── merge_data.py
+├── orders.csv
+├── README.md
+├── requirements.txt
+├── restaurants.sql
+├── solve_questions.py
+├── solve_refined.py
+└── users.json
 ```
 
----
 
 ## 🛠️ Setup and Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/food-delivery-analysis.git
-    cd food-delivery-analysis
+    https://github.com/Priyadharshini-cbe/final_food_delivery_dataset.git
+    cd final-food-delivery-dataset
     ```
 
 2.  **Install dependencies:**
@@ -48,7 +49,7 @@ In this project, we process data from three disparate real-world systems:
 
 3.  **Run the ETL pipeline:**
     ```bash
-    python scripts/merge_data.py
+    python merge_data.py
     ```
 
 ---
